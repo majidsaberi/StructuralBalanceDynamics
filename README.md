@@ -1,2 +1,2 @@
-# ValidatingStruturalBalance
-ValidatingStruturalBalance
+# StructuralBalanceDynamics
+StructuralBalanceDynamics
