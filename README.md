@@ -82,4 +82,5 @@ If you use this repository or any part of its codebase, please cite the followin
 ## Contact
 
 Author: Majid Saberi
+
 Email: majidsa@umich.edu
