@@ -19,8 +19,6 @@
 # ================================================================
 
 message("== Dynamic triad demo with surrogates + transitions: start ==")
-rm(list = ls())
-setwd("/Users/majid/Projects/Balance-Validation/Paper/Submission/FNP/Codes/")
 
 # ---- Source files ------------------------------------------------------------
 source("src/dyn_connectivity.R")          # compute dynamic FC matrices (windowed correlations)
