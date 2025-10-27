@@ -17,10 +17,13 @@ This code reproduces the analyses used in:
 
 ## 📌 Repository Structure
 
+## 📌 Repository Structure
+
+```text
 .
 ├── main.R
 ├── README.md
-└── src/
+└── src
     ├── dyn_connectivity.R
     ├── dyn_triad_type.R
     ├── dyn_triad_lifetime.R
@@ -32,6 +35,7 @@ This code reproduces the analyses used in:
     ├── triad_energy_subnetwork.R
     ├── surrogates.R
     └── triad_transition_matrix.R
+
 
 
 ✉️ Contact
