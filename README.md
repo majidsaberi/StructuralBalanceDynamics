@@ -28,7 +28,7 @@ Each triplet of regions (a *triad*) can be classified as follows:
 | +−+ | two positive, one negative | Imbalanced |
 | −−− | all negative | Imbalanced |
 
-This framework provides a dynamic approach for testing whether **balanced triads persist longer** than **imbalanced ones** —  an empirical test of a central prediction of Structural Balance Theory.
+This framework provides a dynamic approach for testing whether **balanced triads persist longer** than **imbalanced ones**,  an empirical test of a central prediction of Structural Balance Theory.
 
 ---
 
