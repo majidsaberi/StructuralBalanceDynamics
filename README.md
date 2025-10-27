@@ -72,13 +72,13 @@ Triad Classification (+3, −1, +1, −3)
     └── triad_transition_matrix.R  # Build 4×4 triad-type transition probability matrix
 
 
----
+
+
 
 If you use this repository or any part of its codebase, please cite the following paper:
 
-> **Saberi, M. et al. (2025).**  
-> *Empirical Evidence for Structural Balance Theory in Functional Brain Networks.*
-
+**Saberi, M. et al. (2025).**  
+*Empirical Evidence for Structural Balance Theory in Functional Brain Networks.*
 
 ✉️ Contact
 
