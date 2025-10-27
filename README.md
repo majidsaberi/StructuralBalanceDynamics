@@ -71,7 +71,7 @@ Triad Classification (+3, −1, +1, −3)
     ├── surrogates.R               # Generate phase-randomized surrogate time series
     └── triad_transition_matrix.R  # Build 4×4 triad-type transition probability matrix
 
-
+```
 
 ## 📌 Repository Structure
 That lonely line containing:
