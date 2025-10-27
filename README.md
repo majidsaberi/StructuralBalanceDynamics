@@ -52,7 +52,7 @@ Triad Classification (+3, −1, +1, −3)
 
 ```
 
-## 📌 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -73,13 +73,14 @@ Triad Classification (+3, −1, +1, −3)
 
 ```
 
+## Citation
 
 If you use this repository or any part of its codebase, please cite the following paper:
 
 **Saberi, M. et al. (2025).**  
 *Empirical Evidence for Structural Balance Theory in Functional Brain Networks.*
 
-✉️ Contact
+## Contact
 
 Author: Majid Saberi
 Email: majidsa@umich.edu
