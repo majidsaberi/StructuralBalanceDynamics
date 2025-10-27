@@ -73,9 +73,7 @@ Triad Classification (+3, −1, +1, −3)
 
 
 
----
-
-### 🧩 Explanation  
+## 📌 Repository Structure
 That lonely line containing:
 
 
