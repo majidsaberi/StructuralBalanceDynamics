@@ -1,7 +1,6 @@
 # Dynamic Structural Balance Analysis in Functional Brain Networks
 
-This repository implements the computational framework developed for investigating *Structural Balance Theory (SBT)* in **dynamic brain networks**  
-(**Saberi, M. et al., 2025**).
+This repository implements the computational framework developed for investigating *Structural Balance Theory (SBT)* in **dynamic brain networks**  (**Saberi, M. et al., 2025**).
 
 The code estimates how patterns of positive and negative interactions among brain regions form and evolve over time,  
 quantifying the **stability**, **tension**, and **transitions** of triadic relationships.
