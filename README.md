@@ -11,6 +11,8 @@ This framework extends SBT to dynamic brain networks to address a fundamental op
 This project introduces and implements a **dynamic framework** that directly tests these assumptions using resting-state fMRI data.  
 It provides all computational tools required to reproduce the analyses described in the manuscript, including computation of **triadic lifetimes**, **peak energies**, **surrogate modeling**, and **triadic transition mapping**.
 
+Beyond the analyses presented in the project, this framework is designed as a **general-purpose platform** for dynamic brain network research. Its modular design allows researchers to apply the same analytical pipeline to other datasets and scientific questions involving **time-resolved functional connectivity**, **neural stability**, and **higher-order network organization**. The approach is not limited to healthy resting-state fMRI but can be extended to examine **brain dynamics in various cognitive states, developmental stages, or neurological and psychiatric disorders**. By adapting the input time series or parcellation scheme, the platform can quantify how triadic balance, stability, and tension evolve under different experimental or clinical conditions.
+
 ---
 
 ## Background
