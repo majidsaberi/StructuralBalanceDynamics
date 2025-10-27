@@ -30,6 +30,7 @@ Each triplet of regions (a *triad*) can be classified as follows:
 
 This framework provides a dynamic approach for testing whether **balanced triads persist longer** than **imbalanced ones** —  
 an empirical test of a central prediction of Structural Balance Theory.
+
 ---
 
 ## Overview of the Computational Pipeline
