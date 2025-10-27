@@ -71,7 +71,8 @@ Triad Classification (+3, −1, +1, −3)
     ├── surrogates.R               # Generate phase-randomized surrogate time series
     └── triad_transition_matrix.R  # Build 4×4 triad-type transition probability matrix
 
-
+This framework extends SBT to dynamic brain networks to address a fundamental open question that, until now, had not been empirically tested in the brain:
+> Are balanced triads genuinely stable, and are imbalanced triads transient?
 
 If you use this repository or any part of its codebase, please cite the following paper:
 > **Saberi, M. et al. (2025).**
