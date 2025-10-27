@@ -73,6 +73,11 @@ Triad Classification (+3, −1, +1, −3)
 
 
 
+---
+
+### 🧩 Explanation  
+That lonely line containing:
+
 
 
 If you use this repository or any part of its codebase, please cite the following paper:
