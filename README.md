@@ -18,20 +18,20 @@ This code reproduces the analyses used in:
 ## 📌 Repository Structure
 
 .
-├── main.R # Main executable pipeline (run this file)
-├── README.md # Documentation (you are reading this)
-└── src/ # Core analysis functions
-├── dyn_connectivity.R
-├── dyn_triad_type.R
-├── dyn_triad_lifetime.R
-├── triad_lifetime_brain.R
-├── triad_lifetime_subnetwork.R
-├── dyn_triad_energy.R
-├── dyn_triad_peak_energy.R
-├── triad_energy_brain.R
-├── triad_energy_subnetwork.R
-├── surrogates.R
-└── triad_transition_matrix.R
+├── main.R
+├── README.md
+└── src/
+    ├── dyn_connectivity.R
+    ├── dyn_triad_type.R
+    ├── dyn_triad_lifetime.R
+    ├── triad_lifetime_brain.R
+    ├── triad_lifetime_subnetwork.R
+    ├── dyn_triad_energy.R
+    ├── dyn_triad_peak_energy.R
+    ├── triad_energy_brain.R
+    ├── triad_energy_subnetwork.R
+    ├── surrogates.R
+    └── triad_transition_matrix.R
 
 
 ✉️ Contact
