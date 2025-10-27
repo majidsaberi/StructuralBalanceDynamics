@@ -13,9 +13,6 @@ This code reproduces the analyses used in:
 
 > **Saberi, M. et al. (2025). _Empirical Evidence for Structural Balance Theory in Functional Brain Networks._**
 
----
-
-## 📌 Repository Structure
 
 ## 📌 Repository Structure
 
