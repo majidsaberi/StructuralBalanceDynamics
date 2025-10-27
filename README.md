@@ -75,8 +75,10 @@ This framework extends SBT to dynamic brain networks to address a fundamental op
 > Are balanced triads genuinely stable, and are imbalanced triads transient?
 
 If you use this repository or any part of its codebase, please cite the following paper:
-> **Saberi, M. et al. (2025).**
+
+> **Saberi, M. et al. (2025).**  
 > *Empirical Evidence for Structural Balance Theory in Functional Brain Networks.*
+
 
 ✉️ Contact
 
