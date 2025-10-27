@@ -50,7 +50,7 @@ Triad Classification (+3, −1, +1, −3)
         ├──► Surrogate Analysis (phase-randomized control)
         └──► Triad Transition Matrix (4×4 state dynamics)
 
-
+```
 
 ## 📌 Repository Structure
 
@@ -72,10 +72,6 @@ Triad Classification (+3, −1, +1, −3)
     └── triad_transition_matrix.R  # Build 4×4 triad-type transition probability matrix
 
 ```
-
-## 📌 Repository Structure
-That lonely line containing:
-
 
 
 If you use this repository or any part of its codebase, please cite the following paper:
