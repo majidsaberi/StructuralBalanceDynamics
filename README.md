@@ -1,32 +1,37 @@
 # Dynamic Structural Balance Analysis in Functional Brain Networks
 
-This repository implements the computational framework developed by  
-**Majid Saberi et al. (2025)** for investigating *structural balance theory (SBT)* in dynamic brain networks.
+This repository implements the computational framework developed for investigating *Structural Balance Theory (SBT)* in **dynamic brain networks**  
+(**Saberi, M. et al., 2025**).
 
 The code estimates how patterns of positive and negative interactions among brain regions form and evolve over time,  
 quantifying the **stability**, **tension**, and **transitions** of triadic relationships.
 
+This framework extends SBT to brain networks to address a fundamental open question that, until now, had not been empirically tested in the brain:  
+> Are balanced triads genuinely stable, and are imbalanced triads transient?
+
+This project introduces and implements a **dynamic framework** that directly tests these assumptions using resting-state fMRI data.  
+It provides all computational tools required to reproduce the analyses described in the manuscript, including computation of **triadic lifetimes**, **peak energies**, **surrogate modeling**, and **triadic transition mapping**.
+
 ---
 
-## 🧠 Background
+## Background
 
-Structural Balance Theory, originating in social network science, can be applied to brain connectivity to characterize  
-how cooperative and antagonistic interactions organize the network over time.  
-In this framework, each triplet of regions (a *triad*) can be:
+Structural Balance Theory, originally developed in social network science, can be applied to brain connectivity to characterize  
+how cooperative and antagonistic interactions among brain regions organize the network over time.  
+Each triplet of regions (a *triad*) can be classified as follows:
 
 | Triad | Configuration | Interpretation |
 |-------|----------------|----------------|
-| +++ | all positive | strongly coordinated (balanced) |
-| −+− | two negative, one positive | balanced antagonism (“enemy of my enemy”) |
-| +−+ | two positive, one negative | unstable configuration |
-| −−− | all negative | mutual opposition (imbalanced) |
+| +++ | all positive | Balanced |
+| −+− | two negative, one positive | Balanced |
+| +−+ | two positive, one negative | Imbalanced |
+| −−− | all negative | Imbalanced |
 
-The project provides a dynamic approach for testing whether balanced triads are indeed more persistent than imbalanced ones—  
-an empirical validation of a central prediction of SBT.
-
+This framework provides a dynamic approach for testing whether **balanced triads persist longer** than **imbalanced ones** —  
+an empirical test of a central prediction of Structural Balance Theory.
 ---
 
-## ⚙️ Overview of the Computational Pipeline
+## Overview of the Computational Pipeline
 
 ```text
 Time Series (ROI × Time)
@@ -38,50 +43,37 @@ Sliding-Window Correlation → Dynamic Connectivity (DFC)
 Triad Classification (+3, −1, +1, −3)
         │
         ├──► Triad Lifetimes (temporal stability)
-        ├──► Triadic Energy (momentary tension)
-        ├──► Peak Energy (within-lifetime maximum)
+        ├──► Triadic Absolute Peak Energy (momentary tension)
         ├──► Whole-Brain and Subnetwork Aggregates
         ├──► Surrogate Analysis (phase-randomized control)
         └──► Triad Transition Matrix (4×4 state dynamics)
 
 
 
-# Dynamic Strutural Balance Analysis for Functional Brain Networks
-
-This repository provides a complete and reproducible pipeline for computing **dynamic structural balance metrics** from functional brain time series. The workflow includes:
-
-- Sliding-window **dynamic functional connectivity**
-- **Signed triad determination** over time
-- **Triad Lifetimes** and **Peak Aboslute Energy**
-- **Subnetwork-restricted summaries**
-- **Phase-randomized surrogate analysis** for null modeling
-- **Triadic transition probability matrices**
-
-This code reproduces the analyses used in:
-
-> **Saberi, M. et al. (2025). _Empirical Evidence for Structural Balance Theory in Functional Brain Networks._**
-
-
 ## 📌 Repository Structure
 
 ```text
 .
-├── main.R
-├── README.md
+├── main.R                         # Main demo pipeline (synthetic + surrogate data)
+├── README.md                      # Project documentation
 └── src
-    ├── dyn_connectivity.R
-    ├── dyn_triad_type.R
-    ├── dyn_triad_lifetime.R
-    ├── triad_lifetime_brain.R
-    ├── triad_lifetime_subnetwork.R
-    ├── dyn_triad_energy.R
-    ├── dyn_triad_peak_energy.R
-    ├── triad_energy_brain.R
-    ├── triad_energy_subnetwork.R
-    ├── surrogates.R
-    └── triad_transition_matrix.R
+    ├── dyn_connectivity.R         # Compute sliding-window dynamic functional connectivity
+    ├── dyn_triad_type.R           # Derive triad-type tensors (+3, −1, +1, −3)
+    ├── dyn_triad_lifetime.R       # Run-length encoding of triad lifetimes
+    ├── triad_lifetime_brain.R     # Compute whole-brain mean lifetimes across all triads
+    ├── triad_lifetime_subnetwork.R# Lifetime summary restricted to specific ROI subnetworks
+    ├── dyn_triad_energy.R         # Calculate dynamic triadic energy (structural tension)
+    ├── dyn_triad_peak_energy.R    # Extract peak |energy| within each lifetime segment
+    ├── triad_energy_brain.R       # Compute whole-brain mean peak energies
+    ├── triad_energy_subnetwork.R  # Subnetwork-level mean peak energies
+    ├── surrogates.R               # Generate phase-randomized surrogate time series
+    └── triad_transition_matrix.R  # Build 4×4 triad-type transition probability matrix
 
 
+
+Please cite the below paper if you use them:
+
+> **Saberi, M. et al. (2025). _Empirical Evidence for Structural Balance Theory in Functional Brain Networks._**
 
 ✉️ Contact
 
