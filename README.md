@@ -15,8 +15,7 @@ Beyond the analyses presented in the project, this framework is designed as a **
 
 ## Background
 
-Structural Balance Theory, originally developed in social network science, can be applied to brain connectivity to characterize  
-how cooperative and antagonistic interactions among brain regions organize the network over time.  
+Structural Balance Theory, originally developed in social network science, can be applied to brain connectivity to characterize how cooperative and antagonistic interactions among brain regions organize the network over time.  
 Each triplet of regions (a *triad*) can be classified as follows:
 
 | Triad | Configuration | Interpretation |
